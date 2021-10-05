@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>请等待...</title>
+  <script src="jquery-2.1.4.min.js"></script>
+</head>
+<body>
+<div class="parent-node">
+</div>
+</body>
+<script type="text/javascript">
+  var cardArray = [
+    'https://shop97930972.m.youzan.com/wscshop/showcase/feature?alias=awNry3NvxO&banner_id=f.95123105~image_nav.4~0~A2q9usAd', // '忆起（紫水晶守护天使萨基尔天使长）'
+    'https://shop97930972.m.youzan.com/wscshop/showcase/feature?alias=kB2zuRuWYm&banner_id=f.95123105~image_nav.4~1~A2q9usAd', // '圣灵的到来（黄水晶守护天使）'
+    'https://shop97930972.m.youzan.com/wscshop/showcase/feature?alias=NBol51K4YG&banner_id=f.95123105~image_nav.4~2~A2q9usAd', // '收获财富（黄金守护神太阳神）'
+    'https://shop97930972.m.youzan.com/wscshop/showcase/feature?alias=ruIUv9ja7U&banner_id=f.95123105~image_nav.4~3~A2q9usAd' // '心想事成（红宝石守护大天使夏弥尔）'
+  ] //卡牌配置列表
+  
+  var index = Math.round(Math.random() * (cardArray.length - 1));
+    
+  location.href = cardArray[index];
+</script>
+</html>
